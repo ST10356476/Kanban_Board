@@ -66,5 +66,5 @@ jobs:
 
         #run ReportHandling Class tests and output report 
       - name: run tests and create report 
-        working-directory: ./test
+        working-directory: ./test 
         run: java -jar  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class kanban_board.ReportHandlingTest
