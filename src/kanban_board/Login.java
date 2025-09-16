@@ -38,7 +38,7 @@ public class Login {
             Matcher m = p.matcher(password);
 
             // Return if the password matched the ReGex (prashant_srivastava, 2023).
-            return m.matches();
+            System.out.println(m.matches());
     }
 
     //Vallidates if the username entered satisfies the conditions.
